@@ -1,0 +1,538 @@
+@media (max-width: 767px) {
+    
+    /*стили для главной*/
+
+    .center {
+        padding-left: 16px;
+        padding-right: 16px;
+    }
+
+    .header {
+        padding-top: 32px;
+        border-bottom: none;
+        &_input {
+            display: none;
+        }
+    }
+
+    .menu {
+        display: none;
+
+        &_mob {
+            display: flex;
+            align-items: center;
+            gap: 32px;
+        }
+    }
+
+    .logo {
+        &_img {
+            width: 99px;
+        }   
+    }
+
+    .title {
+        font-size: 48px;
+        line-height: 59px;
+        text-align: center;
+    }
+
+    .top {
+        &_content {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        &_text {
+            font-size: 16px;
+            line-height: 32px;
+            text-align: center;
+        }
+    }
+
+    .link {
+        font-size: 14px;
+    }
+
+    .subtitle_for_box {
+        font-size: 24px;
+        line-height: 29px;
+    }
+
+    .for_box {
+        padding-top: 32px;
+    }
+
+    .for {
+        grid-template-columns: repeat(4, 1fr);
+        gap: 16px;
+        &_item {
+            grid-column: 1 / -1;
+            height: 375px;
+            background-size: 100%;
+            font-size: 28px;
+            line-height: 34px;
+            &_big {
+                height: 244px;
+            }
+        }
+    }
+
+    .product_box {
+        padding-top: 32px;
+    }
+
+    .product_subtitle {
+        font-weight: 600;
+        font-size: 24px;
+        line-height: 29px;
+    }
+
+    .img {
+        &_voda {
+            margin-bottom: 9px;
+        }
+        &_ronald {
+            margin-bottom: 9px;
+        }
+        &_vent {
+            margin-bottom: 9px;
+        }
+    }
+
+    .subtitle {
+        &_voda {
+            font-weight: 500;
+            font-size: 18px;
+            line-height: 22px;
+        }
+        &_ronald {
+            font-weight: 500;
+            font-size: 18px;
+            line-height: 22px;
+        }
+        &_vent {
+            font-weight: 500;
+            font-size: 18px;
+            line-height: 22px;
+        }
+    }
+
+    .text {
+        &_voda {
+            
+            font-weight: normal;
+            font-size: 14px;
+            line-height: 17px;
+            margin-bottom: 8px;
+        }
+        &_ronald{
+            font-weight: normal;
+            font-size: 14px;
+            line-height: 17px;
+            margin-bottom: 8px;
+        }
+        &_vent {
+            font-weight: normal;
+            font-size: 14px;
+            line-height: 17px;
+            margin-bottom: 8px;
+        }
+    }
+
+    .new_price {
+        &_voda {
+            font-weight: 500;
+            font-size: 18px;
+            line-height: 22px;
+        }
+        &_ronald {
+            font-weight: 500;
+            font-size: 18px;
+            line-height: 22px;
+        }
+        &_vent {
+            font-weight: 500;
+            font-size: 18px;
+            line-height: 22px;
+        }
+    }
+
+    .old_price {
+        &_voda {
+            font-weight: 500;
+            font-size: 18px;
+            line-height: 22px;
+        }
+        &_ronald {
+            font-weight: 500;
+            font-size: 18px;
+            line-height: 22px;
+        }
+        &_vent {
+            font-weight: 500;
+            font-size: 18px;
+            line-height: 22px;
+        }
+    }
+
+    .catalog {
+        padding-top: 32px;
+    }
+
+    .catalog_subtitle {
+        font-weight: 600;
+        font-size: 24px;
+        line-height: 29px;
+    }
+
+    .img {
+        &_tatran {
+            margin-bottom: 9px;
+        }
+        &_vilora {
+            margin-bottom: 9px;
+        }
+        &_menu {
+            margin-bottom: 9px;
+        }
+        &_askesta {
+            margin-bottom: 9px;
+        }
+        &_norman {
+            margin-bottom: 9px;
+        }
+        &_nastan {
+            margin-bottom: 9px;
+        }
+    }
+
+    .subtitle {
+        &_tatran {
+            font-weight: 500;
+            font-size: 18px;
+            line-height: 22px;
+        }
+        &_vilora {
+            font-weight: 500;
+            font-size: 18px;
+            line-height: 22px;
+        }
+        &_menu {
+            font-weight: 500;
+            font-size: 18px;
+            line-height: 22px;
+        }
+        &_askesta {
+            font-weight: 500;
+            font-size: 18px;
+            line-height: 22px;
+        }
+        &_norman {
+            font-weight: 500;
+            font-size: 18px;
+            line-height: 22px;
+        }
+        &_nastan {
+            font-weight: 500;
+            font-size: 18px;
+            line-height: 22px;
+        }
+    }
+
+    .text {
+        &_tatran {
+            font-weight: normal;
+            font-size: 14px;
+            line-height: 17px;
+        }
+        &_vilora {
+            font-weight: normal;
+            font-size: 14px;
+            line-height: 17px;
+        }
+        &_menu {
+            font-weight: normal;
+            font-size: 14px;
+            line-height: 17px;
+        }
+        &_askesta {
+            font-weight: normal;
+            font-size: 14px;
+            line-height: 17px;
+        }
+        &_norman {
+            font-weight: normal;
+            font-size: 14px;
+            line-height: 17px;
+        }
+        &_nastan {
+            font-weight: normal;
+            font-size: 14px;
+            line-height: 17px;
+        }
+    }
+
+    .price {
+        &_tatran {
+            font-weight: 500;
+            font-size: 18px;
+            line-height: 22px;
+        }
+        &_vilora {
+            font-weight: 500;
+            font-size: 18px;
+            line-height: 22px;
+        }
+        &_menu {
+            font-weight: 500;
+            font-size: 18px;
+            line-height: 22px;
+        }
+        &_askesta {
+            font-weight: 500;
+            font-size: 18px;
+            line-height: 22px;
+        }
+        &_norman {
+            font-weight: 500;
+            font-size: 18px;
+            line-height: 22px;
+        }
+        &_nastan {
+            font-weight: 500;
+            font-size: 18px;
+            line-height: 22px;
+        }
+    }
+
+    .link_box {
+        margin-bottom: 32px;
+        margin-top: 36px;
+    }
+
+    .footer {
+        padding-bottom: 32px;
+
+        &_content {
+            justify-content: center;
+            gap: 34px;
+        }
+
+        &_info {
+            gap: 100px;
+        }
+    }
+
+    /*стили для каталога*/
+    
+    .header {
+        margin-bottom: 0px;
+    }
+
+    .title_catalog {
+        width: 100%;
+    }
+    
+    .catalog_main {
+        padding-top: 32px;
+        gap: 16px;
+    }
+
+    .img {
+        &_lunar {
+            margin-bottom: 9px;
+        }
+        &_tatran_2 {
+            margin-bottom: 9px;
+        }
+        &_vilora_2 {
+            margin-bottom: 9px;
+        }
+        &_menu_2 {
+            margin-bottom: 9px;
+        }
+        &_askesta_2 {
+            margin-bottom: 9px;
+        }
+        &_lunar_2 {
+            margin-bottom: 9px;
+        }
+        &_nastan_2 {
+            margin-bottom: 9px;
+        }
+    }
+
+    .subtitle {
+        &_lunar {
+            font-weight: 500;
+            font-size: 18px;
+            line-height: 22px;
+        }
+        &_tatran_2 {
+            font-weight: 500;
+            font-size: 18px;
+            line-height: 22px;
+        }
+        &_vilora_2 {
+            font-weight: 500;
+            font-size: 18px;
+            line-height: 22px;
+        }
+        &_menu_2 {
+            font-weight: 500;
+            font-size: 18px;
+            line-height: 22px;
+        }
+        &_askesta_2 {
+            font-weight: 500;
+            font-size: 18px;
+            line-height: 22px;
+        }
+        &_lunar_2 {
+            font-weight: 500;
+            font-size: 18px;
+            line-height: 22px;
+        }
+        &_nastan_2 {
+            font-weight: 500;
+            font-size: 18px;
+            line-height: 22px;
+        }
+    }
+
+    .text {
+        &_lunar {
+            font-weight: normal;
+            font-size: 14px;
+            line-height: 17px;
+            margin-bottom: 8px;
+        }
+        &_tatran_2 {
+            font-weight: normal;
+            font-size: 14px;
+            line-height: 17px;
+            margin-bottom: 8px;
+        }
+        &_vilora_2 {
+            font-weight: normal;
+            font-size: 14px;
+            line-height: 17px;
+            margin-bottom: 8px;
+        }
+        &_menu_2 {
+            font-weight: normal;
+            font-size: 14px;
+            line-height: 17px;
+            margin-bottom: 8px;
+        }
+        &_askesta_2 {
+            font-weight: normal;
+            font-size: 14px;
+            line-height: 17px;
+            margin-bottom: 8px;
+        }
+        &_lunar_2 {
+            font-weight: normal;
+            font-size: 14px;
+            line-height: 17px;
+            margin-bottom: 8px;
+        }
+        &_nastan_2 {
+            font-weight: normal;
+            font-size: 14px;
+            line-height: 17px;
+            margin-bottom: 8px;
+        }
+    }
+
+    .price {
+        &_lunar {
+            font-weight: 500;
+            font-size: 18px;
+            line-height: 22px;
+        }
+        &_tatran_2 {
+            font-weight: 500;
+            font-size: 18px;
+            line-height: 22px;
+        }
+        &_vilora_2 {
+            font-weight: 500;
+            font-size: 18px;
+            line-height: 22px;
+        }
+        &_menu_2 {
+            font-weight: 500;
+            font-size: 18px;
+            line-height: 22px;
+        }
+        &_askesta_2 {
+            font-weight: 500;
+            font-size: 18px;
+            line-height: 22px;
+        }
+        &_lunar_2 {
+            font-weight: 500;
+            font-size: 18px;
+            line-height: 22px;
+        }
+        &_nastan_2 {
+            font-weight: 500;
+            font-size: 18px;
+            line-height: 22px;
+        }
+    }
+
+    /*стили для корзины*/
+
+    .top_cart {
+        &_content {
+            margin-top: 0px;
+        }
+    }
+
+    .cart {
+        &_name_box {
+            display: none;
+        }
+        &_img {
+            display: none;
+        }
+        &_name {
+            font-weight: 500;
+            font-size: 18px;
+            line-height: 22px;
+        }
+        &_text {
+            font-weight: normal;
+            font-size: 12px;
+            line-height: 15px;
+        }
+        &_price {
+            font-weight: 500;
+            font-size: 12px;
+            line-height: 15px;
+        }
+        &_buttons {
+            &_left {
+                width: 166px;
+                font-size: 12px;
+                line-height: 15px;
+            }
+            &_right {
+                width: 163px;
+                font-size: 12px;
+                line-height: 15px;
+            }
+        }
+    }
+
+    .cart_form {
+        width: 343px;
+        &_button {
+            margin-left: 26px;
+         }
+    }
+
+}
